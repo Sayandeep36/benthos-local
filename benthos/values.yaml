@@ -1,0 +1,13 @@
+# values.yaml
+config:
+  input:
+    generate:
+      mapping: root = "hello from benthos"
+      interval: 5s
+      count: 0
+  pipeline:
+    processors:
+      - mapping: root = content().uppercase()
+  output:
+    stdout:
+      codec: lines
