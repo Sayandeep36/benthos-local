@@ -18,7 +18,7 @@ env:
 jobs:
   deploy:
     name: Deploy Benthos via Helm
-    runs-on: self-hosted        # uses your local machine as the runner
+    runs-on: [self-hosted, macOS, X64]       # uses your local machine as the runner
 
     steps:
       # 1. Checkout the repository

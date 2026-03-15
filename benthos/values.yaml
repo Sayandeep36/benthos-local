@@ -2,7 +2,7 @@
 config:
   input:
     generate:
-      mapping: root = "hello from benthos updated"
+      mapping: root = "hello from benthos"
       interval: 5s
       count: 0
   pipeline:
