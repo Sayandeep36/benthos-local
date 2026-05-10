@@ -14,4 +14,4 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Confirm main branch deployment
-        run: echo "✅ Push to main branch detected — running Deploy Benthos workflow"
+        run: echo "✅ Push to main branch detected — running Deploy Benthos workflow -- 1"
